@@ -12,14 +12,14 @@
   <body>
     <header class="header">
      <nav class="header__menu">
-       <ul class="header__links-list header__links-list-item_no-bullit">
-         <li class="header__links-list-item">
+       <ul class="header__links-list">
+         <li class="header__links-list-item header__links-list-item_no-bullit">
            <a class="header__link fref="#0">главная</a>
          </li>
-         <li class="header__links-list-item header__link_active">
+         <li class="header__links-list-item header__link_anderline">
           <a class="header__link fref="#0">посмотреть лоты</a>
         </li>
-        <li class="header__links-list-item header__link_active">
+        <li class="header__links-list-item header__link_anderline">
           <a class="header__link fref="#0">об аукционе</a>
         </li>
        </ul> 
@@ -33,20 +33,28 @@
     </a>
      <nav class="header__contacts">
        <ul class="header__contacts-list header__links-list-item_no-bullit">
-         <li class="header__contacts-list-item header__link_active">
+         <li class="header__contacts-list-item header__link_anderlined">
            <a class="header__link href="tel:+99995555555">+9 999 555 5555</a>
          </li>
-         <li class="header__contacts-list-item header__link_active">
-           <addre class="header__link fref="mailto:info@sobaka.ge">info@sobaka.ge</a>
+         <li class="header__contacts-list-item header__link_anderlined">
+           <a class="header__link fref="mailto:info@sobaka.ge">info@sobaka.ge</a>
          </li>
-         <li class="header__contacts-list-item header__link_noactive">
+         <li class="header__contacts-list-item">
            <address class="header__link fref="#0">наб. Принсенграхт 263-265, <br>Амстердам</address>
          </li>
        </ul>
      </nav>
     </header>
-    <jambotron></jambotron>
-    <lots></lots>
-    <about></about>
+    <section class="cover">
+      <h1 class="cover__title">
+        <span class="accent-span">оно</span>
+        <span class="accent-span text-center">тебе</span>
+        <span class="accent-span text-right">надо</span>
+      </h1>
+    </section>
+    
+    <section class="lots"></section>
+    <section class="about"></section>
+    <section class="footer"></section>
   </body>
 </html>

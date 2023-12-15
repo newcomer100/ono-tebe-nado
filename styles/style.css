@@ -2,8 +2,8 @@
 .header {
   display: flex;
   justify-content: space-between;  
-  align-items: flex-start;
-  padding: 50px 99px;
+  align-items: center;
+  padding: 50px 92px;
   color: #000;
   font-family: Raleway;
   font-size: 18px;
@@ -15,10 +15,20 @@
 .header__links-list {
   padding-top: 43px;
   padding-bottom: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  line-height: normal;
+}
+
+.header__links-list-item {
+  margin: 0 10px;
 }
 
 .header__link {
   font-style: normal;
+  margin: 0;
+  padding-right: 12px;
 }
 
 .header__logo {
@@ -26,14 +36,40 @@
   width: 148px;
 }
 
-.header__logo-image {
-  width: 100%;
-}
-
 .header__links-list-item_no-bullit {
     list-style: none;
 }
 
-.header__link_active {
+.header__link_anderline {
     text-decoration: underline;
+    list-style: circle;
+}
+
+.header__link_anderlined {
+  text-decoration: underline;
+}
+
+.header__contacts-list {
+  display: flex;
+  flex-direction: column; 
+  gap: 5px;
+  list-style: none;
+  padding-bottom: 7px;
+}
+
+.header-contacts {
+  flex-shrink: 0;
+}
+
+.cover {
+  min-height: 764px;
+  padding-bottom: 180px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto;
+}
+
+.cover__title {
+  
 }
