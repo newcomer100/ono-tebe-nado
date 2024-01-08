@@ -9,4 +9,4 @@ Grid Layout
 Flexbox-вёрстка
 
 Ссылка на сайт:
-https://newcomer100.github.io/ono-tebe-nado/
+https://github.com/newcomer100/ono-tebe-nado
