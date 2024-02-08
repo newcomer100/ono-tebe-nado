@@ -2,16 +2,15 @@
 .header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: repeat(1, 1fr);
   align-items: center;
-  padding: 83px 50px 83px 50px;
+  padding: 86px 0;
   color: #000;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px; /* 135% */
   width: 100%;
-  max-width: 1440px;   
+  max-width: 1340px;   
   margin: 0 auto;
 }
 
@@ -22,14 +21,13 @@
 
 .header__links-list {
   display: flex;
-  justify-content: space-evenly;
   line-height: normal;
 }
 
 .header__link {
   font-style: normal;
   margin: 0;
-  padding-right: 15px;
+  padding-right: 32px;
 }
 
 .link {
@@ -95,14 +93,13 @@
 
 .cover {
   width: 100%;
-  max-width: 1420px;
+  max-width: 1440px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
   background-origin: content-box;
-  margin: 1px 9px 16px 9px;
 }
 
 .cover__title {
@@ -116,17 +113,17 @@
   text-transform: uppercase;
   position: relative;
   z-index: 2;
-  padding: 158px 63px 0 48px;
+  padding: 165px 50px 0 50px;
 }
 
 .accent-span {
   display: block;
   letter-spacing: 30px;
-  padding-top: 17px;
+  padding-top: 20px;
 }
 
 .accent-span:first-child {
-  padding-top: 3px;
+  padding-top: 0;
 }
 
 .aligned-text {
@@ -155,7 +152,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  gap: 78px;
+  gap: 76px;
  }
 
 .cover__description-text {
@@ -184,8 +181,6 @@
   text-transform: uppercase;
   background-color: inherit;
   padding: 12px 28px;
-  word-spacing: 0px;
-  flex-wrap: wrap;
 }
 
 .overlay {
@@ -199,7 +194,7 @@
 } 
 
 .lots {
-  padding: 157px 32px;
+  padding-top: 180px;
   width: 100%;
   max-width: 1340px;
   margin: 0 auto;
@@ -219,8 +214,9 @@
 .lots__card-list {
   display: flex;
   flex-direction: row; 
-  gap: 20px;
+  gap: 25px;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .lots__card-list-item {
@@ -228,11 +224,11 @@
   box-sizing: border-box;
   width: 430px;
   min-height: 450px;
-  margin: 0 auto;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
+  text-decoration: none;
 }
 
 .lots__look-more-linkn {
@@ -258,7 +254,6 @@
 }
 
 .card__title {
-  text-decoration: underline;
   color: #FFF;
   font-size: 22px;
   font-style: normal;
@@ -266,7 +261,7 @@
   line-height: 120%; /* 26.4px */
   text-decoration-line: underline;
   text-transform: uppercase;
-  padding: 47px 40px 0px 40px;
+  padding: 48px 40px 0px 40px;
   z-index: 2;
 }
 
@@ -276,7 +271,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 120%; /* 24px */
-  padding: 0px 40px 38px 40px;
+  padding: 0px 40px 50px 40px;
   flex-direction: column;
   justify-content: flex-end;
   z-index: 2;
@@ -297,7 +292,7 @@
 .about {
   width: 100%;
   max-width: 1340px;
-  padding: 0 50px 175px 0px;
+  padding-bottom: 178px;
   margin: 0 auto;
 }
 
@@ -305,13 +300,13 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  padding-top: 19px;
+  padding-top: 180px;
 }
 
 .about__logo {
   background-color: #000;
   border-radius: 50%;
-  margin: 0px 67px 0 79px;
+  margin: 0px 67px 0 95px;
   padding: 63px 46px;
   width: 430px;
   height: 240px;
@@ -322,8 +317,8 @@
 }
 
 .about__title {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 101px;
+  padding-bottom: 101px;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -336,7 +331,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-bottom: 21px;
+  padding-bottom: 26px;
 }
 
 .about__text:last-child {
@@ -346,14 +341,12 @@
 .about__list-item {
   display: inline-flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  padding-left: 53px;
 }
 
 .footer {
   font-size: 18px;
   font-weight: 400;
-  padding: 1px 50px 90px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -363,10 +356,6 @@
 
 .footer__contacts-list {
   list-style: none;
-}
-
-.footer__adress {
-  padding-left: 8px;
 }
 
 .footer__menu {
@@ -379,7 +368,7 @@
 .footer__menu-list {
   list-style: none;
   text-align: center;
-  padding-left: 86px;
+  padding-left: 209px;
 }
 
 .footer__menu-link {
